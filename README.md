@@ -94,3 +94,5 @@ level: high
 - Add more Sigma rules for additional detections
 - Extend dashboards with new visualizations
 
+## DONE BY
+### RUTHRAN-SEC
