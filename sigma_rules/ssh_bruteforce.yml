@@ -1,0 +1,15 @@
+title: SSH Brute Force Detection
+id: 12345
+status: experimental
+description: Detect multiple failed SSH login attempts
+author: beginner-soc
+logsource:
+  product: linux
+  service: sshd
+
+detection:
+  selection:
+    log_message: "Failed password"
+  condition: selection
+
+level: high
